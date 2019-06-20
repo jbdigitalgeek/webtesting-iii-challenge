@@ -10,7 +10,7 @@ describe("<Dashboard />", () => {
     ReactDOM.render(<Dashboard />, div);
     ReactDOM.unmountComponentAtNode(div);
   });
-    it("renders without errors", () => {
-        const queries = render(<Dashboard />);
-    });
+  it("renders without errors", () => {
+    const queries = render(<Dashboard />);
+  });
 });
